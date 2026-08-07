@@ -13,12 +13,12 @@ def load_data():
     dir_path = os.path.dirname(os.path.realpath(__file__))
 
     possible_paths = [
-        os.path.join(dir_path, 'main_data.csv'),
-        os.path.join(dir_path, 'dashboard', 'main_data.csv'),
-        os.path.join(dir_path, 'submission', 'dashboard', 'main_data.csv'),
-        'main_data.csv',
-        'dashboard/main_data.csv',
-        'submission/dashboard/main_data.csv'
+        os.path.join(dir_path, 'main_data.zip'),
+        os.path.join(dir_path, 'dashboard', 'main_data.zip'),
+        os.path.join(dir_path, 'submission', 'dashboard', 'main_data.zip'),
+        'main_data.zip',
+        'dashboard/main_data.zip',
+        'submission/dashboard/main_data.zip'
     ]
 
     file_path = None
